@@ -1,0 +1,8 @@
+name = "nala-moon-checkout"
+main = "checkout.js"
+compatibility_date = "2024-01-01"
+
+# Secrets (NICHT hier eintragen — über das Cloudflare-Dashboard oder
+# `wrangler secret put STRIPE_SECRET_KEY` setzen):
+#   STRIPE_SECRET_KEY
+
