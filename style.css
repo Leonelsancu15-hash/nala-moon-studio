@@ -669,3 +669,18 @@ section{position:relative;}
   .cookie-notice p{flex:0 0 auto;}
   .cookie-notice-ok{width:100%;}
 }
+
+/* ===== SIZE TABLE MOBILE FIX ===== */
+@media (max-width:640px){
+  .size-table,.size-table tbody,.size-table tr,.size-table td{display:block;width:100%;}
+  .size-table thead{display:none;}
+  .size-table tr{border-bottom:1px solid var(--border);padding:.6rem 0;}
+  .size-table td{
+    border-bottom:none;padding:.3rem 0;display:flex;justify-content:space-between;align-items:baseline;
+    gap:1rem;text-align:right;
+  }
+  .size-table td::before{
+    content:attr(data-label);color:var(--pink);font-size:.68rem;letter-spacing:.08em;
+    text-transform:uppercase;text-align:left;flex:0 0 auto;
+  }
+}
