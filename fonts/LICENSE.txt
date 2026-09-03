@@ -1,0 +1,4 @@
+Fraunces (Undercase Type) and Nunito (Vernon Adams, Cyreal, Jacques Le Bailly) are licensed under the
+SIL Open Font License 1.1 — https://openfontlicense.org
+Subsets (latin, latin-ext) downloaded from Google Fonts and self-hosted so that no visitor request
+reaches a third-party font server.

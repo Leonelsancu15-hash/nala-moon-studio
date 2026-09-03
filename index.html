@@ -2,399 +2,431 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nala Moon Studio — Cute 3D Prints &amp; Creations</title>
-<meta name="description" content="Nala Moon Studio — handgefertigte 3D-Druck-Kreationen mit ganz viel Liebe: personalisierte Namensschilder, Fantasy-Figuren, Deko und praktische Helfer.">
-<meta name="theme-color" content="#0d0a1a">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Nala Moon Studio — Cute 3D Prints &amp; Creations aus Bonn</title>
+<meta name="description" content="Nala Moon Studio — handgefertigte 3D-Druck-Unikate mit ganz viel Liebe: personalisierte Namensschilder, Fantasy-Figuren, Cake Topper, Deko und praktische Alltagshelfer aus einem kleinen Studio in Bonn.">
+<meta name="theme-color" content="#0b0a16">
+<link rel="canonical" href="https://nalamoon-studio.com/">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Nala Moon Studio — Cute 3D Prints & Creations">
-<meta property="og:description" content="Filament, Fantasie und ganz viel Liebe — handgefertigte 3D-Druck-Kreationen zum Verlieben.">
+<meta property="og:title" content="Nala Moon Studio — Kleine Ideen. Gedruckt mit Liebe.">
+<meta property="og:description" content="Filament, Fantasie &amp; ganz viel Liebe — handgefertigte 3D-Druck-Unikate aus Bonn. Scroll dich durch den Druck.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://nalamoon-studio.com/">
+<meta property="og:image" content="https://nalamoon-studio.com/assets/img/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="de_DE">
+<meta name="twitter:card" content="summary_large_image">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23f4cf6e'/%3E%3Ccircle cx='38' cy='40' r='34' fill='%230d0a1a'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23f4cf6e'/%3E%3Ccircle cx='38' cy='40' r='34' fill='%230b0a16'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="assets/img/og-cover.jpg">
 
-<!-- Bewusst keine Google Fonts / externe Font-CDNs eingebunden: vermeidet das
-     bekannte DSGVO-Haftungsrisiko der "Google Fonts IP-Weitergabe"
-     (LG München I, Az. 3 O 17493/20). Es werden ausschließlich System-Schriften
-     verwendet — keine Drittanbieter-Anfragen für Fonts. -->
+<!-- Schriften und Skripte werden ausschließlich von dieser Domain geladen (keine Google-Fonts-,
+     CDN- oder Tracking-Anfragen an Dritte) — siehe Datenschutzerklärung. -->
+<link rel="preload" href="fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/nunito-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>
+  // Motion-Gate: nur mit JS und ohne "Bewegung reduzieren" werden Elemente für die Choreografie versteckt.
+  (function(){var d=document.documentElement;d.classList.add('has-js');
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('has-motion');}})();
+</script>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Nala Moon Studio",
-  "sameAs": [
-    "https://www.instagram.com/nala_moon_studio"
-  ]
+  "url": "https://nalamoon-studio.com/",
+  "email": "Nalamoonstudio@outlook.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Bonn", "addressCountry": "DE" },
+  "sameAs": ["https://www.instagram.com/nala_moon_studio"]
 }
 </script>
-<!-- HINWEIS: Alle Produktdaten unten sind PLATZHALTER (nur zur Gestaltungsvorschau) —
-     Name/Preis/Beschreibung durch echte Angaben ersetzen, sobald der finale Katalog steht. -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Mond-Namensschild","description":"Platzhalter — personalisiertes Namensschild im Moon-Glitter-Look.","offers":{"@type":"Offer","priceCurrency":"EUR","price":"18.00","availability":"https://schema.org/PreOrder"}}},
-    {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Fantasy-Kreatur","description":"Platzhalter — kleine Drachenfigur aus schillerndem Seiden-Filament.","offers":{"@type":"Offer","priceCurrency":"EUR","price":"24.00","availability":"https://schema.org/PreOrder"}}},
-    {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Geburtstags-Topper","description":"Platzhalter — individueller Cake Topper für jeden Anlass.","offers":{"@type":"Offer","priceCurrency":"EUR","price":"9.00","availability":"https://schema.org/PreOrder"}}},
-    {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Alltagsheld Organizer","description":"Platzhalter — praktischer Fernbedienungs- &amp; Kabel-Organizer.","offers":{"@type":"Offer","priceCurrency":"EUR","price":"14.00","availability":"https://schema.org/PreOrder"}}},
-    {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Medaillen-Halter","description":"Platzhalter — Wandhalter für Sport-Medaillen, personalisierbar.","offers":{"@type":"Offer","priceCurrency":"EUR","price":"22.00","availability":"https://schema.org/PreOrder"}}},
-    {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Boho Vasen-Set","description":"Platzhalter — dekoratives Vasen-Duo im Wellen-Design.","offers":{"@type":"Offer","priceCurrency":"EUR","price":"19.00","availability":"https://schema.org/PreOrder"}}}
-  ]
-}
-</script>
-<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="is-index">
 
-<!-- ================= NAV ================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <mask id="nmMoonMask"><rect width="32" height="32" fill="#fff"/><circle cx="19.5" cy="12.5" r="10.2" fill="#000"/></mask>
+    <symbol id="nm-mark" viewBox="0 0 32 32">
+      <circle cx="14.5" cy="16.5" r="12" fill="currentColor" mask="url(#nmMoonMask)"/>
+      <path d="M25 17.5l1.05 2.7 2.7 1.05-2.7 1.05L25 25l-1.05-2.7-2.7-1.05 2.7-1.05z" fill="currentColor"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="veil" id="veil" aria-hidden="true"><svg class="veil-mark"><use href="#nm-mark"/></svg></div>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<!-- ================= NAVIGATION ================= -->
 <header class="site-nav" id="siteNav">
   <div class="nav-inner">
-    <a href="#top" class="nav-brand">
-      <svg class="nav-moon" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="45" fill="#f4cf6e"/><circle cx="38" cy="40" r="34" fill="#0d0a1a"/></svg>
-      <span>Nala Moon Studio</span>
+    <a href="#top" class="brand" aria-label="Nala Moon Studio – zur Startseite">
+      <svg class="brand-mark" aria-hidden="true"><use href="#nm-mark"/></svg>
+      <span class="brand-name">Nala Moon <em>Studio</em></span>
     </a>
-    <nav class="nav-links">
-      <a href="#story">Story</a>
-      <a href="#origin">Meine Reise</a>
-      <a href="#shop">Shop</a>
-      <a href="#values">Warum wir</a>
-      <a href="#contact">Kontakt</a>
+    <nav class="nav-links" id="navLinks" aria-label="Hauptnavigation">
+      <a href="#reise">Meine Reise</a>
+      <a href="#prozess">So entsteht’s</a>
+      <a href="#kollektion">Kollektion</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontakt">Kontakt</a>
     </nav>
-    <a href="#shop" class="btn btn-ghost nav-cta">Zum Shop</a>
+    <div class="nav-actions">
+      <button type="button" class="cart-toggle" id="cartToggle" aria-label="Warenkorb öffnen" aria-haspopup="dialog" aria-controls="cartDrawer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <a href="#kollektion" class="btn btn-ghost nav-cta">Zum Shop</a>
+      <button type="button" class="nav-burger" id="navBurger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+    </div>
   </div>
 </header>
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<!-- ================= KINO-BÜHNE: der Film läuft mit dem Scroll ================= -->
+<div class="stage" id="stage" aria-hidden="true">
+  <picture class="stage-poster" id="stagePoster">
+    <source media="(orientation: portrait) and (max-width: 899px)" srcset="assets/film/nalamoon-portrait-poster.jpg">
+    <img src="assets/film/nalamoon-desktop-poster.jpg" alt="" decoding="async" fetchpriority="high">
+  </picture>
+  <video class="stage-film" id="stageFilm" muted playsinline preload="none" disablepictureinpicture disableremoteplayback tabindex="-1"></video>
+  <canvas class="stage-stars" id="stageStars"></canvas>
+  <div class="stage-scrim"></div>
+  <div class="stage-dim" id="stageDim"></div>
+</div>
+
+<!-- Druck-Anzeige: zählt die Schichten, während der Film gescrubbt wird -->
+<div class="print-hud" id="printHud" aria-hidden="true">
+  <span class="hud-label">Schicht</span>
+  <span class="hud-layer" id="hudLayer">000</span>
+  <span class="hud-total">/ 412</span>
+  <span class="hud-bar"><span class="hud-bar-fill" id="hudFill"></span></span>
+  <span class="hud-meta">0,2 mm · Silk-PLA</span>
+</div>
+
+<main id="main">
 
 <!-- ================= HERO ================= -->
-<section class="hero" id="top">
-  <div class="star-field" id="starField" aria-hidden="true"></div>
-  <div class="hero-glow" aria-hidden="true"></div>
+<section class="hero cinema" id="top">
   <div class="hero-content">
-    <svg class="hero-moon" id="heroMoon" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="45" fill="#f4cf6e"/><circle cx="38" cy="40" r="34" fill="#0d0a1a"/><circle cx="70" cy="30" r="3" fill="#fbf7ff" opacity=".8"/><circle cx="78" cy="55" r="2" fill="#fbf7ff" opacity=".6"/><circle cx="60" cy="75" r="2.4" fill="#fbf7ff" opacity=".7"/></svg>
-    <p class="eyebrow reveal-up">CUTE 3D PRINTS &amp; CREATIONS</p>
-    <h1 class="hero-title">
-      <span class="line reveal-up">KLEINE IDEEN.</span>
-      <span class="line reveal-up glow-text">GEDRUCKT MIT LIEBE.</span>
+    <p class="eyebrow" data-intro>Cute 3D Prints &amp; Creations · Bonn</p>
+    <h1 class="hero-title" id="heroTitle">
+      <span class="split" data-split>Kleine Ideen.</span><br>
+      <span class="split accent" data-split>Gedruckt mit Liebe.</span>
     </h1>
-    <p class="hero-sub reveal-up">
-      Filament, Fantasie &amp; ganz viel Liebe — handgefertigte 3D-Druck-Kreationen<br>
-      aus einem kleinen Studio, das aus reiner Neugier entstanden ist. 🌙🐾
-    </p>
-    <div class="hero-actions reveal-up">
-      <a href="#shop" class="btn btn-primary">Kollektion entdecken</a>
-      <a href="#origin" class="btn btn-outline">Meine Geschichte</a>
+    <p class="hero-sub" data-intro>Filament, Fantasie &amp; ganz viel Liebe — handgefertigte 3D-Druck-Unikate aus einem kleinen Ein-Personen-Studio in Bonn.</p>
+    <div class="hero-actions" data-intro>
+      <a href="#kollektion" class="btn btn-primary magnetic">Kollektion entdecken</a>
+      <a href="#reise" class="btn btn-outline magnetic">Meine Geschichte</a>
     </div>
-    <p class="hero-slogan reveal-up">Dog Mom × Maker</p>
   </div>
-  <div class="scroll-cue" aria-hidden="true"><span></span></div>
-</section>
-
-<!-- ================= BRAND STORY ================= -->
-<section class="story" id="story">
-  <div class="story-watermark" id="storyWatermark" aria-hidden="true">
-    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="#f4cf6e"/><circle cx="38" cy="40" r="34" fill="#150f28"/></svg>
-  </div>
-  <div class="story-inner">
-    <p class="eyebrow reveal-up">FILAMENT, FANTASIE &amp; GANZ VIEL LIEBE</p>
-    <h2 class="story-title reveal-up">
-      Jedes Teil beginnt als Idee —<br>
-      <span class="glow-text">und wird bei uns Wirklichkeit.</span>
-    </h2>
-    <p class="story-text reveal-up">
-      Nala Moon Studio ist ein kleines Ein-Personen-Studio, in dem aus Schicht für Schicht
-      geschmolzenem Filament kleine Unikate entstehen: verspielte Fantasy-Figuren, herzliche
-      Geschenke mit Namen und Datum, und praktische Alltagshelfer für Zuhause. Jedes Stück wird
-      einzeln gedruckt, kontrolliert und mit Sorgfalt verschickt.
-    </p>
-    <blockquote class="story-verse reveal-up">
-      <p>&bdquo;Aus einer Idee am Computer kann ein echtes, greifbares Produkt entstehen.&ldquo;</p>
-      <cite>— Das Prinzip hinter jedem Druck</cite>
-    </blockquote>
-    <p class="story-tagline reveal-up">Cute 3D Prints. Ganz viel Liebe. 🌸</p>
+  <div class="hero-foot" data-intro>
+    <p class="hero-tag">Dog Mom × Maker</p>
+    <p class="scroll-hint"><span class="scroll-hint-line" aria-hidden="true"></span>Scrollen, um den Druck zu starten</p>
   </div>
 </section>
 
-<!-- ================= ORIGIN STORY (cinematic pinned) ================= -->
-<section class="origin" id="origin">
-  <div class="origin-pin" id="originPin">
-    <div class="origin-sky" id="originSky" aria-hidden="true">
-      <div class="origin-moon" id="originMoon"></div>
-    </div>
-    <div class="origin-content">
-      <p class="origin-date-badge" id="originBadge">04.05.2026 — DER ANFANG</p>
-      <p class="origin-eyebrow" id="originEyebrow">WIE ALLES BEGANN</p>
-      <h2 class="origin-heading" id="originHeading">Meine Reise zum 3D-Druck</h2>
-      <p class="origin-para" id="originP1">
-        Zum 3D-Drucken bin ich durch Neugier und mein Interesse an kreativen Möglichkeiten
-        gekommen. Am 04.05.2026 habe ich meinen ersten 3D-Drucker geschenkt bekommen. Zu diesem
-        Zeitpunkt war das Thema für mich noch relativ neu, und ich wusste noch nicht genau, was
-        alles damit möglich ist.
-      </p>
-      <p class="origin-para" id="originP2">
-        Ich habe angefangen, mich immer mehr mit dem 3D-Druck zu beschäftigen, verschiedene
-        Dinge auszuprobieren und mich mit der Technik auseinanderzusetzen. Dabei habe ich schnell
-        gemerkt, wie vielseitig der 3D-Druck ist und wie viele Möglichkeiten man hat, eigene
-        Ideen umzusetzen.
-      </p>
-      <p class="origin-para" id="originP3">
-        Besonders fasziniert mich, dass aus einer Idee am Computer ein echtes Produkt entstehen
-        kann. Man kann Dinge individuell gestalten und genau nach seinen eigenen Vorstellungen
-        herstellen.
-      </p>
-      <p class="origin-signoff" id="originSignoff">
-        Seit dem 04.05.2026 ist aus meiner anfänglichen Neugier immer mehr eine Leidenschaft
-        geworden. Ich lerne ständig Neues dazu, probiere verschiedene Ideen aus und möchte mich
-        in Zukunft noch intensiver mit dem 3D-Druck beschäftigen. 🌙
-      </p>
+<!-- ================= KAPITEL ÜBER DEM FILM ================= -->
+<section class="chapter cinema" id="kapitel-1" aria-labelledby="k1">
+  <div class="chapter-copy">
+    <p class="eyebrow reveal">Kapitel 01</p>
+    <h2 class="split" data-split id="k1">Schicht für Schicht.</h2>
+    <p class="reveal">Aus geschmolzenem Filament wächst ein Unikat — 0,2 Millimeter auf einmal, Stunde um Stunde, bis aus einer Datei ein Ding wird, das man in die Hand nehmen kann.</p>
+    <ul class="tags reveal" aria-label="Fakten"><li>PLA · Silk-PLA · PETG</li><li>Print-on-Demand</li><li>Handkontrolliert</li></ul>
+  </div>
+</section>
+
+<section class="chapter cinema chapter-right" id="kapitel-2" aria-labelledby="k2">
+  <div class="chapter-copy">
+    <p class="eyebrow reveal">Kapitel 02</p>
+    <h2 class="split" data-split id="k2">Jedes Teil beginnt als Idee.</h2>
+    <p class="reveal">Ein Name, ein Datum, eine Lieblingsfarbe: Was als Skizze am Bildschirm beginnt, wird hier Schicht für Schicht Wirklichkeit — genau so, wie du es dir vorstellst.</p>
+    <ul class="tags reveal" aria-label="Fakten"><li>Personalisierbar</li><li>Einzelstück</li><li>Aus Bonn</li></ul>
+  </div>
+</section>
+
+<section class="chapter cinema chapter-center" id="kapitel-3" aria-labelledby="k3">
+  <div class="chapter-copy">
+    <p class="eyebrow reveal">Kapitel 03</p>
+    <h2 class="split" data-split id="k3">… und wird bei uns Wirklichkeit.</h2>
+    <p class="reveal">Fertig gedruckt, von Hand kontrolliert, liebevoll verpackt — und dann auf die Reise zu dir.</p>
+    <p class="reveal"><a href="#kollektion" class="btn btn-primary magnetic">Zur Kollektion</a></p>
+  </div>
+</section>
+
+<!-- ================= MEINE REISE ================= -->
+<section class="solid reise" id="reise" aria-labelledby="reiseTitle">
+  <div class="wrap reise-grid">
+    <figure class="reise-figure tilt" data-parallax="0.12">
+      <picture>
+        <source type="image/webp" srcset="assets/img/origin-printer-600.webp 600w, assets/img/origin-printer.webp 1200w" sizes="(max-width: 900px) 92vw, 44vw">
+        <img src="assets/img/origin-printer.jpg" srcset="assets/img/origin-printer-600.jpg 600w, assets/img/origin-printer.jpg 1200w" sizes="(max-width: 900px) 92vw, 44vw" width="1200" height="1500" alt="Ein kleiner 3D-Drucker mit einer goldenen Geschenkschleife auf einem Schreibtisch vor einem Fenster, durch das der Vollmond scheint." loading="lazy" decoding="async">
+      </picture>
+      <figcaption>04.05.2026 — mein erster Drucker, ein Geschenk.</figcaption>
+    </figure>
+    <div class="reise-copy">
+      <p class="eyebrow reveal">Wie alles begann</p>
+      <h2 class="split" data-split id="reiseTitle">Meine Reise zum 3D-Druck</h2>
+      <p class="reise-date reveal">04.05.2026 · Der Anfang</p>
+      <p class="reveal">Zum 3D-Drucken bin ich durch Neugier und mein Interesse an kreativen Möglichkeiten gekommen. Am 04.05.2026 habe ich meinen ersten 3D-Drucker geschenkt bekommen. Zu diesem Zeitpunkt war das Thema für mich noch relativ neu, und ich wusste noch nicht genau, was alles damit möglich ist.</p>
+      <p class="reveal">Ich habe angefangen, mich immer mehr mit dem 3D-Druck zu beschäftigen, verschiedene Dinge auszuprobieren und mich mit der Technik auseinanderzusetzen. Dabei habe ich schnell gemerkt, wie vielseitig der 3D-Druck ist und wie viele Möglichkeiten man hat, eigene Ideen umzusetzen.</p>
+      <p class="reveal">Besonders fasziniert mich, dass aus einer Idee am Computer ein echtes Produkt entstehen kann. Man kann Dinge individuell gestalten und genau nach seinen eigenen Vorstellungen herstellen.</p>
+      <p class="reise-signoff reveal">Seit dem 04.05.2026 ist aus meiner anfänglichen Neugier immer mehr eine Leidenschaft geworden. Ich lerne ständig Neues dazu, probiere verschiedene Ideen aus und möchte mich in Zukunft noch intensiver mit dem 3D-Druck beschäftigen.</p>
+      <p class="reise-sign reveal">Jacqueline · Nala Moon Studio</p>
     </div>
   </div>
 </section>
 
-<!-- ================= PROCESS ================= -->
-<section class="process" id="process">
-  <div class="process-inner">
-    <p class="eyebrow reveal-up">VOM BILDSCHIRM ZUM REGAL</p>
-    <h2 class="section-title reveal-up">So entsteht dein Unikat</h2>
-    <div class="process-track">
-      <div class="process-line"></div>
-      <div class="process-line-fill" id="processLineFill"></div>
-      <div class="process-step">
-        <div class="process-dot">💡</div>
-        <h3>1. Idee &amp; Design</h3>
-        <p>Jedes Produkt beginnt als 3D-Modell am Computer — ob eigenes Design oder individuelle Wunschgravur.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-dot">🖨️</div>
-        <h3>2. Slicing &amp; Druck</h3>
+<!-- ================= PROZESS ================= -->
+<section class="solid prozess" id="prozess" aria-labelledby="prozessTitle">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow reveal">Vom Bildschirm ins Regal</p>
+      <h2 class="split" data-split id="prozessTitle">So entsteht dein Unikat</h2>
+    </div>
+    <ol class="steps" id="steps">
+      <li class="step reveal">
+        <span class="step-num">01</span>
+        <h3>Idee &amp; Design</h3>
+        <p>Jedes Produkt beginnt als 3D-Modell am Computer — ob eigenes Design oder deine individuelle Wunschgravur.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-num">02</span>
+        <h3>Slicing &amp; Druck</h3>
         <p>Das Modell wird in hunderte hauchdünne Schichten zerlegt und Schicht für Schicht sorgfältig gedruckt.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-dot">🎨</div>
-        <h3>3. Nacharbeit &amp; Kontrolle</h3>
+      </li>
+      <li class="step reveal">
+        <span class="step-num">03</span>
+        <h3>Nacharbeit &amp; Kontrolle</h3>
         <p>Stützstrukturen entfernen, Kanten glätten, Qualität prüfen — jedes Teil wird von Hand kontrolliert.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-dot">💌</div>
-        <h3>4. Liebevoll verpackt</h3>
+      </li>
+      <li class="step reveal">
+        <span class="step-num">04</span>
+        <h3>Liebevoll verpackt</h3>
         <p>Dein Unikat wird sicher verpackt und auf die Reise zu dir geschickt.</p>
-      </div>
-    </div>
+      </li>
+      <span class="steps-line" aria-hidden="true"><span class="steps-line-fill" id="stepsFill"></span></span>
+    </ol>
   </div>
 </section>
 
-<!-- ================= SHOP ================= -->
-<section class="shop" id="shop">
-  <div class="shop-inner">
-    <p class="eyebrow reveal-up center">DAS ATELIER</p>
-    <h2 class="section-title reveal-up center">Kollektion entdecken</h2>
-    <p class="shop-note reveal-up center">
-      Vorschau unserer Produktwelten — finaler Katalog, echte Fotos, Preise und Checkout folgen,
-      sobald der Shop vollständig verbunden ist.
-    </p>
+<!-- ================= MATERIAL-BAND ================= -->
+<section class="band" id="material" aria-label="Zitat">
+  <picture class="band-media" data-parallax="0.2">
+    <source type="image/webp" media="(max-width: 900px)" srcset="assets/img/material-macro-mobile.webp">
+    <source type="image/webp" srcset="assets/img/material-macro.webp">
+    <source media="(max-width: 900px)" srcset="assets/img/material-macro-mobile.jpg">
+    <img src="assets/img/material-macro.jpg" width="1800" height="1005" alt="Makroaufnahme feiner, gleichmäßiger Druckschichten aus schimmerndem Silk-Filament in Gold und Flieder." loading="lazy" decoding="async">
+  </picture>
+  <blockquote class="band-quote">
+    <p class="split" data-split>„Aus einer Idee am Computer kann ein echtes, greifbares Produkt entstehen.“</p>
+    <cite class="reveal">Das Prinzip hinter jedem Druck</cite>
+  </blockquote>
+</section>
 
-    <div class="placeholder-grid">
-      <article class="product-card reveal-up">
-        <span class="placeholder-tag">Placeholder</span>
-        <div class="product-media">🌙</div>
-        <h3>Mond-Namensschild</h3>
-        <p class="product-desc">Personalisiertes Namensschild im Moon-Glitter-Look, perfekt fürs Kinderzimmer.</p>
-        <p class="product-price">€18.00</p>
-        <button class="btn btn-outline product-buy">In den Warenkorb</button>
+<!-- ================= KOLLEKTION (3D-Galerie) ================= -->
+<section class="solid kollektion" id="kollektion" aria-labelledby="kollektionTitle">
+  <div class="wrap section-head kollektion-head">
+    <p class="eyebrow reveal">Das Atelier</p>
+    <h2 class="split" data-split id="kollektionTitle">Kollektion entdecken</h2>
+    <p class="lede reveal">Vorschau unserer Produktwelten. Die Abbildungen sind Konzept-Renderings — echte Produktfotos, finale Preise und der Checkout folgen mit dem fertigen Sortiment.</p>
+  </div>
+  <div class="gallery" id="gallery">
+    <div class="gallery-track" id="galleryTrack">
+
+      <article class="product" data-slug="mond-namensschild">
+        <button type="button" class="product-media" aria-label="Details zu Mond-Namensschild ansehen">
+          <picture>
+            <source type="image/webp" srcset="assets/img/product-mond-namensschild-600.webp 600w, assets/img/product-mond-namensschild.webp 1200w" sizes="(max-width: 900px) 74vw, 30vw">
+            <img src="assets/img/product-mond-namensschild.jpg" srcset="assets/img/product-mond-namensschild-600.jpg 600w, assets/img/product-mond-namensschild.jpg 1200w" sizes="(max-width: 900px) 74vw, 30vw" width="1200" height="1500" alt="Goldenes Glitzer-Namensschild in Mondform mit dem Namen Nala in cremefarbener Schrift." loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <div class="product-info">
+          <h3>Mond-Namensschild</h3>
+          <p>Personalisiertes Namensschild im Moon-Glitter-Look — perfekt fürs Kinderzimmer.</p>
+          <div class="product-row"><span class="price">18,00 €</span><button type="button" class="btn btn-small product-buy">In den Warenkorb</button></div>
+        </div>
       </article>
-      <article class="product-card reveal-up">
-        <span class="bestseller-tag">Bestseller</span>
-        <span class="placeholder-tag">Placeholder</span>
-        <div class="product-media">🐉</div>
-        <h3>Fantasy-Kreatur</h3>
-        <p class="product-desc">Kleine Drachenfigur aus schillerndem Seiden-Filament — jedes Stück ein Unikat.</p>
-        <p class="product-price">€24.00</p>
-        <button class="btn btn-outline product-buy">In den Warenkorb</button>
+
+      <article class="product" data-slug="fantasy-kreatur">
+        <button type="button" class="product-media" aria-label="Details zu Fantasy-Kreatur ansehen">
+          <picture>
+            <source type="image/webp" srcset="assets/img/product-fantasy-kreatur-600.webp 600w, assets/img/product-fantasy-kreatur.webp 1200w" sizes="(max-width: 900px) 74vw, 30vw">
+            <img src="assets/img/product-fantasy-kreatur.jpg" srcset="assets/img/product-fantasy-kreatur-600.jpg 600w, assets/img/product-fantasy-kreatur.jpg 1200w" sizes="(max-width: 900px) 74vw, 30vw" width="1200" height="1500" alt="Kleine Drachenfigur aus schillerndem Silk-Filament in Flieder, Türkis und Gold." loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <div class="product-info">
+          <h3>Fantasy-Kreatur</h3>
+          <p>Kleine Drachenfigur aus schillerndem Seiden-Filament — jedes Stück ein Unikat.</p>
+          <div class="product-row"><span class="price">24,00 €</span><button type="button" class="btn btn-small product-buy">In den Warenkorb</button></div>
+        </div>
       </article>
-      <article class="product-card reveal-up">
-        <span class="placeholder-tag">Placeholder</span>
-        <div class="product-media">🎂</div>
-        <h3>Geburtstags-Topper</h3>
-        <p class="product-desc">Individueller Cake Topper mit Wunschtext für jeden Anlass.</p>
-        <p class="product-price">€9.00</p>
-        <button class="btn btn-outline product-buy">In den Warenkorb</button>
+
+      <article class="product" data-slug="geburtstags-topper">
+        <button type="button" class="product-media" aria-label="Details zu Geburtstags-Topper ansehen">
+          <picture>
+            <source type="image/webp" srcset="assets/img/product-geburtstags-topper-600.webp 600w, assets/img/product-geburtstags-topper.webp 1200w" sizes="(max-width: 900px) 74vw, 30vw">
+            <img src="assets/img/product-geburtstags-topper.jpg" srcset="assets/img/product-geburtstags-topper-600.jpg 600w, assets/img/product-geburtstags-topper.jpg 1200w" sizes="(max-width: 900px) 74vw, 30vw" width="1200" height="1500" alt="Goldener Cake Topper in Mondform mit Sternen und einem schlafenden Hund auf einer cremefarbenen Torte." loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <div class="product-info">
+          <h3>Geburtstags-Topper</h3>
+          <p>Individueller Cake Topper mit Wunschtext für jeden Anlass.</p>
+          <div class="product-row"><span class="price">9,00 €</span><button type="button" class="btn btn-small product-buy">In den Warenkorb</button></div>
+        </div>
       </article>
-      <article class="product-card reveal-up">
-        <span class="placeholder-tag">Placeholder</span>
-        <div class="product-media">📦</div>
-        <h3>Alltagsheld Organizer</h3>
-        <p class="product-desc">Praktischer Fernbedienungs- &amp; Kabel-Organizer für Wohnzimmer und Schreibtisch.</p>
-        <p class="product-price">€14.00</p>
-        <button class="btn btn-outline product-buy">In den Warenkorb</button>
+
+      <article class="product" data-slug="alltagsheld-organizer">
+        <button type="button" class="product-media" aria-label="Details zu Alltagsheld Organizer ansehen">
+          <picture>
+            <source type="image/webp" srcset="assets/img/product-alltagsheld-organizer-600.webp 600w, assets/img/product-alltagsheld-organizer.webp 1200w" sizes="(max-width: 900px) 74vw, 30vw">
+            <img src="assets/img/product-alltagsheld-organizer.jpg" srcset="assets/img/product-alltagsheld-organizer-600.jpg 600w, assets/img/product-alltagsheld-organizer.jpg 1200w" sizes="(max-width: 900px) 74vw, 30vw" width="1200" height="1500" alt="Salbeigrüner, geometrischer Organizer mit Fernbedienung, Smartphone und aufgerollten Kabeln." loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <div class="product-info">
+          <h3>Alltagsheld Organizer</h3>
+          <p>Praktischer Fernbedienungs- &amp; Kabel-Organizer für Wohnzimmer und Schreibtisch.</p>
+          <div class="product-row"><span class="price">14,00 €</span><button type="button" class="btn btn-small product-buy">In den Warenkorb</button></div>
+        </div>
       </article>
-      <article class="product-card reveal-up">
-        <span class="placeholder-tag">Placeholder</span>
-        <div class="product-media">🏅</div>
-        <h3>Medaillen-Halter</h3>
-        <p class="product-desc">Wandhalter für Sport-Medaillen, personalisierbar mit Name und Sportart.</p>
-        <p class="product-price">€22.00</p>
-        <button class="btn btn-outline product-buy">In den Warenkorb</button>
+
+      <article class="product" data-slug="medaillen-halter">
+        <button type="button" class="product-media" aria-label="Details zu Medaillen-Halter ansehen">
+          <picture>
+            <source type="image/webp" srcset="assets/img/product-medaillen-halter-600.webp 600w, assets/img/product-medaillen-halter.webp 1200w" sizes="(max-width: 900px) 74vw, 30vw">
+            <img src="assets/img/product-medaillen-halter.jpg" srcset="assets/img/product-medaillen-halter-600.jpg 600w, assets/img/product-medaillen-halter.jpg 1200w" sizes="(max-width: 900px) 74vw, 30vw" width="1200" height="1500" alt="Schwarz-goldener Medaillenhalter in Mondform an der Wand, mit zwei hängenden Sportmedaillen." loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <div class="product-info">
+          <h3>Medaillen-Halter</h3>
+          <p>Wandhalter für Sport-Medaillen, personalisierbar mit Name und Sportart.</p>
+          <div class="product-row"><span class="price">22,00 €</span><button type="button" class="btn btn-small product-buy">In den Warenkorb</button></div>
+        </div>
       </article>
-      <article class="product-card reveal-up">
-        <span class="placeholder-tag">Placeholder</span>
-        <div class="product-media">🏺</div>
-        <h3>Boho Vasen-Set</h3>
-        <p class="product-desc">Dekoratives Vasen-Duo im geriffelten Wellen-Design für dein Zuhause.</p>
-        <p class="product-price">€19.00</p>
-        <button class="btn btn-outline product-buy">In den Warenkorb</button>
+
+      <article class="product" data-slug="boho-vasen-set">
+        <button type="button" class="product-media" aria-label="Details zu Boho Vasen-Set ansehen">
+          <picture>
+            <source type="image/webp" srcset="assets/img/product-boho-vasen-set-600.webp 600w, assets/img/product-boho-vasen-set.webp 1200w" sizes="(max-width: 900px) 74vw, 30vw">
+            <img src="assets/img/product-boho-vasen-set.jpg" srcset="assets/img/product-boho-vasen-set-600.jpg 600w, assets/img/product-boho-vasen-set.jpg 1200w" sizes="(max-width: 900px) 74vw, 30vw" width="1200" height="1500" alt="Zwei geriffelte Vasen im Wellen-Design in Creme und Altrosa mit getrocknetem Pampasgras." loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <div class="product-info">
+          <h3>Boho Vasen-Set</h3>
+          <p>Dekoratives Vasen-Duo im geriffelten Wellen-Design für dein Zuhause.</p>
+          <div class="product-row"><span class="price">19,00 €</span><button type="button" class="btn btn-small product-buy">In den Warenkorb</button></div>
+        </div>
       </article>
+
     </div>
-    <p class="shop-disclaimer reveal-up center">
-      Produkte, Symbole und Preise sind Platzhalter für die Gestaltung. Checkout läuft sicher über Stripe (in Vorbereitung).
-    </p>
+  </div>
+  <p class="gallery-hint wrap" id="galleryHint">Scrollen oder wischen, um durch die Kollektion zu gleiten</p>
+</section>
+
+<!-- ================= VERSPRECHEN ================= -->
+<section class="solid versprechen" id="versprechen" aria-labelledby="versprechenTitle">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow reveal">Warum Nala Moon Studio</p>
+      <h2 class="split" data-split id="versprechenTitle">Klein, persönlich, mit Herz</h2>
+    </div>
+    <dl class="promises">
+      <div class="promise reveal"><dt>Handgefertigt &amp; handkontrolliert</dt><dd>Jedes Teil wird einzeln gedruckt, nachbearbeitet und von Hand geprüft, bevor es verschickt wird.</dd></div>
+      <div class="promise reveal"><dt>Individualisierbar</dt><dd>Namen, Farben, Daten und Sonderwünsche werden auf Anfrage berücksichtigt — einfach bei der Bestellung angeben.</dd></div>
+      <div class="promise reveal"><dt>Print-on-Demand statt Lager</dt><dd>Gedruckt wird erst nach deiner Bestellung: weniger Ausschuss, mehr Sorgfalt pro Stück.</dd></div>
+      <div class="promise reveal"><dt>Direkt von der Macherin</dt><dd>Ein Studio, eine Person: Vom 3D-Modell bis zum Paket läuft alles durch dieselben Hände — und bei Fragen antwortet genau die.</dd></div>
+    </dl>
   </div>
 </section>
 
-<!-- ================= TRUST BADGES ================= -->
-<section class="trust" id="trust">
-  <div class="trust-inner">
-    <div class="trust-item reveal-up">
-      <div class="trust-icon">
-        <svg viewBox="0 0 48 48" fill="none"><path d="M24 4l16 6v12c0 11-7 18-16 22-9-4-16-11-16-22V10z" stroke="currentColor" stroke-width="2"/><path d="M17 24l5 5 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <h3>Handgefertigt mit Liebe</h3>
-      <p>Jedes Teil wird einzeln gedruckt und von Hand kontrolliert</p>
+<!-- ================= MATERIALIEN & GRÖSSEN ================= -->
+<section class="solid guide" id="material-guide" aria-labelledby="guideTitle">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow reveal">Gut zu wissen</p>
+      <h2 class="split" data-split id="guideTitle">Materialien &amp; Größen</h2>
+      <p class="lede reveal">Ungefähre Richtwerte je Produktkategorie. Exakte Maße werden je Artikel im finalen Katalog ergänzt.</p>
     </div>
-    <div class="trust-item reveal-up">
-      <div class="trust-icon">
-        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M24 14v10l7 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      </div>
-      <h3>Individualisierbar</h3>
-      <p>Namen, Farben &amp; Wünsche werden auf Anfrage berücksichtigt</p>
+    <div class="table-wrap reveal">
+      <table class="guide-table">
+        <thead><tr><th scope="col">Kategorie</th><th scope="col">Material</th><th scope="col">Typische Größe</th><th scope="col">Individualisierbar</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Kategorie">Namensschilder</td><td data-label="Material">PLA, Glitter-Finish</td><td data-label="Typische Größe">ca. 15–25 cm breit</td><td data-label="Individualisierbar">Ja — Name &amp; Farbe</td></tr>
+          <tr><td data-label="Kategorie">Fantasy-Figuren</td><td data-label="Material">Silk-PLA, mehrfarbig</td><td data-label="Typische Größe">ca. 8–15 cm hoch</td><td data-label="Individualisierbar">Teilweise — Farbe</td></tr>
+          <tr><td data-label="Kategorie">Organizer</td><td data-label="Material">PETG, robust</td><td data-label="Typische Größe">ca. 10–30 cm</td><td data-label="Individualisierbar">Auf Anfrage</td></tr>
+          <tr><td data-label="Kategorie">Deko &amp; Vasen</td><td data-label="Material">PLA, matt/seidig</td><td data-label="Typische Größe">ca. 12–20 cm hoch</td><td data-label="Individualisierbar">Ja — Farbe</td></tr>
+        </tbody>
+      </table>
     </div>
-    <div class="trust-item reveal-up">
-      <div class="trust-icon">
-        <svg viewBox="0 0 48 48" fill="none"><path d="M4 16h26v20H4z" stroke="currentColor" stroke-width="2"/><path d="M30 22h8l6 7v7h-14z" stroke="currentColor" stroke-width="2"/><circle cx="13" cy="38" r="4" stroke="currentColor" stroke-width="2"/><circle cx="35" cy="38" r="4" stroke="currentColor" stroke-width="2"/></svg>
-      </div>
-      <h3>Sorgfältiger Versand</h3>
-      <p>Sicher verpackt, damit dein Unikat unbeschadet ankommt</p>
-    </div>
-    <div class="trust-item reveal-up">
-      <div class="trust-icon">
-        <svg viewBox="0 0 48 48" fill="none"><path d="M8 20l-4-4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16h26a10 10 0 0 1 10 10v0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M40 28l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 32H18A10 10 0 0 1 8 22v0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      </div>
-      <h3>Direkter Kontakt</h3>
-      <p>Fragen &amp; Sonderwünsche direkt per Nachricht oder Instagram</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= VALUES ================= -->
-<section class="values" id="values">
-  <p class="eyebrow reveal-up center">WARUM NALA MOON STUDIO</p>
-  <h2 class="section-title reveal-up center">Klein, persönlich, mit Herz</h2>
-  <div class="values-inner">
-    <div class="value-item reveal-up">
-      <svg class="value-icon" width="40" height="40" viewBox="0 0 48 48" fill="none"><path d="M24 4l16 7v11c0 11-7 18-16 22C15 40 8 33 8 22V11l16-7z" stroke="currentColor" stroke-width="2"/><path d="M17 24l5 5 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <h3>Ein Studio, eine Person</h3>
-      <p>Kein Großbetrieb — jedes Produkt läuft durch dieselben Hände, vom Modell bis zum Versand.</p>
-    </div>
-    <div class="value-item reveal-up">
-      <svg class="value-icon" width="40" height="40" viewBox="0 0 48 48" fill="none"><path d="M8 14h32v20a4 4 0 0 1-4 4H12a4 4 0 0 1-4-4V14z" stroke="currentColor" stroke-width="2"/><path d="M16 14V10a8 8 0 0 1 16 0v4" stroke="currentColor" stroke-width="2"/></svg>
-      <h3>Print-on-Demand statt Lager</h3>
-      <p>Wir drucken erst nach Bestellung — weniger Ausschuss, mehr Sorgfalt pro Stück.</p>
-    </div>
-    <div class="value-item reveal-up">
-      <svg class="value-icon" width="40" height="40" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M24 14v10l7 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <h3>Direkt von der Macherin</h3>
-      <p>Keine Zwischenhändler oder Marktplätze — jede Bestellung wird persönlich betreut.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= SIZE / MATERIAL GUIDE ================= -->
-<section class="size-guide" id="size-guide">
-  <p class="eyebrow reveal-up center">GUT ZU WISSEN</p>
-  <h2 class="section-title reveal-up center">Materialien &amp; Größen</h2>
-  <div class="size-guide-inner">
-    <p class="size-guide-note reveal-up">Ungefähre Richtwerte je nach Produktkategorie. Exakte Maße werden je Artikel im finalen Katalog ergänzt.</p>
-    <table class="size-table reveal-up">
-      <thead>
-        <tr><th>Kategorie</th><th>Material</th><th>Typ. Größe</th><th>Individualisierbar</th></tr>
-      </thead>
-      <tbody>
-        <tr><td data-label="Kategorie">Namensschilder</td><td data-label="Material">PLA, Glitter-Finish</td><td data-label="Typ. Größe">ca. 15–25 cm breit</td><td data-label="Individualisierbar">Ja — Name &amp; Farbe</td></tr>
-        <tr><td data-label="Kategorie">Fantasy-Figuren</td><td data-label="Material">Silk-PLA, mehrfarbig</td><td data-label="Typ. Größe">ca. 8–15 cm hoch</td><td data-label="Individualisierbar">Teilweise — Farbe</td></tr>
-        <tr><td data-label="Kategorie">Organizer</td><td data-label="Material">PETG, robust</td><td data-label="Typ. Größe">ca. 10–30 cm</td><td data-label="Individualisierbar">Auf Anfrage</td></tr>
-        <tr><td data-label="Kategorie">Deko &amp; Vasen</td><td data-label="Material">PLA, matt/seidig</td><td data-label="Typ. Größe">ca. 12–20 cm hoch</td><td data-label="Individualisierbar">Ja — Farbe</td></tr>
-      </tbody>
-    </table>
   </div>
 </section>
 
 <!-- ================= FAQ ================= -->
-<section class="faq" id="faq">
-  <p class="eyebrow reveal-up center">FRAGEN &amp; ANTWORTEN</p>
-  <h2 class="section-title reveal-up center">Häufig gestellte Fragen</h2>
-  <div class="faq-inner">
-    <details class="faq-item reveal-up">
-      <summary>Wie lange dauert der Versand?</summary>
-      <p>Da jedes Stück erst nach Bestellung gedruckt wird, plane bitte etwas Vorlaufzeit ein. Genaue Lieferzeiten werden mit dem finalen Katalog ergänzt.</p>
-    </details>
-    <details class="faq-item reveal-up">
-      <summary>Kann ich mein Produkt personalisieren lassen?</summary>
-      <p>Ja! Viele Produkte können mit Namen, Datum oder Wunschfarbe individualisiert werden — einfach bei der Bestellung angeben oder uns direkt kontaktieren.</p>
-    </details>
-    <details class="faq-item reveal-up">
-      <summary>Welches Material wird verwendet?</summary>
-      <p>Je nach Produkt kommt PLA, Silk-PLA oder PETG zum Einsatz — siehe Materialübersicht oben.</p>
-    </details>
-    <details class="faq-item reveal-up">
-      <summary>Welche Zahlungsmethoden werden akzeptiert?</summary>
-      <p>Der sichere Checkout über Stripe wird aktuell eingerichtet und unterstützt gängige Zahlungsmethoden, sobald er live geht.</p>
-    </details>
-    <details class="faq-item reveal-up">
-      <summary>Kann ich auch außerhalb Deutschlands bestellen?</summary>
-      <p>Aktuell konzentrieren wir uns auf Deutschland und die EU. Bei Fragen einfach per Instagram oder E-Mail melden.</p>
-    </details>
-  </div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section class="contact-section" id="contact">
-  <div class="contact-inner">
-    <p class="eyebrow center">SAG HALLO</p>
-    <h2 class="section-title center">Fragen, Wünsche, Sonderanfertigungen?</h2>
-    <p class="contact-note">
-      Schreib uns einfach auf Instagram oder per E-Mail — wir freuen uns, von dir zu hören.
-    </p>
-    <div class="contact-actions">
-      <a href="https://www.instagram.com/nala_moon_studio" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Auf Instagram schreiben</a>
-      <a href="mailto:Nalamoonstudio@outlook.com" class="btn btn-outline">E-Mail senden</a>
+<section class="solid faq" id="faq" aria-labelledby="faqTitle">
+  <div class="wrap faq-grid">
+    <div class="section-head">
+      <p class="eyebrow reveal">Fragen &amp; Antworten</p>
+      <h2 class="split" data-split id="faqTitle">Häufig gestellte Fragen</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item reveal"><summary>Wie lange dauert der Versand?</summary><p>Da jedes Stück erst nach Bestellung gedruckt wird, plane bitte etwas Vorlaufzeit ein — in der Regel 5–10 Werktage. Genaue Lieferzeiten werden mit dem finalen Katalog ergänzt.</p></details>
+      <details class="faq-item reveal"><summary>Kann ich mein Produkt personalisieren lassen?</summary><p>Ja! Viele Produkte können mit Namen, Datum oder Wunschfarbe individualisiert werden — einfach bei der Bestellung angeben oder direkt schreiben.</p></details>
+      <details class="faq-item reveal"><summary>Welches Material wird verwendet?</summary><p>Je nach Produkt kommt PLA, Silk-PLA oder PETG zum Einsatz — siehe Materialübersicht oben.</p></details>
+      <details class="faq-item reveal"><summary>Welche Zahlungsmethoden werden akzeptiert?</summary><p>Der sichere Checkout über Stripe wird aktuell eingerichtet und unterstützt gängige Zahlungsmethoden, sobald er live geht.</p></details>
+      <details class="faq-item reveal"><summary>Kann ich auch außerhalb Deutschlands bestellen?</summary><p>Aktuell konzentrieren wir uns auf Deutschland und die EU. Bei Fragen einfach per Instagram oder E-Mail melden.</p></details>
     </div>
   </div>
 </section>
+
+<!-- ================= KONTAKT ================= -->
+<section class="solid kontakt" id="kontakt" aria-labelledby="kontaktTitle">
+  <div class="wrap kontakt-grid">
+    <div class="kontakt-copy">
+      <p class="eyebrow reveal">Sag Hallo</p>
+      <h2 class="split" data-split id="kontaktTitle">Fragen, Wünsche, Sonderanfertigungen?</h2>
+      <p class="lede reveal">Schreib einfach auf Instagram oder per E-Mail — ich freue mich, von dir zu hören.</p>
+      <div class="kontakt-actions reveal">
+        <a href="https://www.instagram.com/nala_moon_studio" target="_blank" rel="noopener noreferrer" class="btn btn-primary magnetic">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          @nala_moon_studio
+        </a>
+        <a href="mailto:Nalamoonstudio@outlook.com" class="btn btn-outline magnetic">E-Mail schreiben</a>
+      </div>
+    </div>
+    <figure class="kontakt-figure tilt" data-parallax="0.1">
+      <picture>
+        <source type="image/webp" srcset="assets/img/packaging-600.webp 600w, assets/img/packaging.webp 1200w" sizes="(max-width: 900px) 92vw, 40vw">
+        <img src="assets/img/packaging.jpg" srcset="assets/img/packaging-600.jpg 600w, assets/img/packaging.jpg 1200w" sizes="(max-width: 900px) 92vw, 40vw" width="1200" height="1500" alt="Offene Kraftpapier-Box mit fliederfarbenem Seidenpapier, darin die Mondfigur mit schlafendem Hund, daneben ein Anhänger mit Wachssiegel." loading="lazy" decoding="async">
+      </picture>
+    </figure>
+  </div>
+</section>
+
+</main>
 
 <!-- ================= FOOTER ================= -->
 <footer class="site-footer" id="footer">
-  <div class="footer-inner">
+  <p class="footer-giant" aria-hidden="true">Nala Moon</p>
+  <div class="wrap footer-inner">
     <div class="footer-brand">
-      <svg class="footer-moon" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="45" fill="#f4cf6e"/><circle cx="38" cy="40" r="34" fill="#0d0a1a"/></svg>
-      <p>Nala Moon Studio</p>
+      <a href="#top" class="brand"><svg class="brand-mark" aria-hidden="true"><use href="#nm-mark"/></svg><span class="brand-name">Nala Moon <em>Studio</em></span></a>
       <p class="footer-slogan">Filament, Fantasie &amp; ganz viel Liebe</p>
-        <div class="footer-social">
-          <a href="https://www.instagram.com/nala_moon_studio" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
-          </a>
-        </div>
+      <p class="footer-place">Bonn · Deutschland</p>
     </div>
-    <div class="footer-links">
+    <nav class="footer-links" aria-label="Fußzeile">
       <div>
         <h4>Shop</h4>
-        <a href="#shop">Kollektion</a>
-        <a href="#story">Unsere Story</a>
-        <a href="#origin">Meine Reise</a>
+        <a href="#kollektion">Kollektion</a>
+        <a href="#reise">Meine Reise</a>
+        <a href="#prozess">So entsteht’s</a>
       </div>
       <div>
         <h4>Support</h4>
         <a href="#faq">FAQ</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="https://www.instagram.com/nala_moon_studio" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
       <div>
         <h4>Rechtliches</h4>
@@ -403,40 +435,70 @@
         <a href="widerruf.html">Widerruf</a>
         <a href="datenschutz.html">Datenschutz</a>
       </div>
-    </div>
+    </nav>
   </div>
-  <div class="footer-bottom">
-    <p>&copy; <span id="year"></span> Nala Moon Studio. Alle Rechte vorbehalten.</p>
+  <div class="wrap footer-bottom">
+    <p>&copy; <span id="year">2026</span> Nala Moon Studio. Alle Rechte vorbehalten.</p>
+    <p class="footer-note">Diese Seite lädt keine Schriften, Skripte oder Tracker von Drittanbietern.</p>
   </div>
 </footer>
 
-<!-- ================= CART DRAWER (built by JS, markup placeholder) ================= -->
-
-<!-- ================= COOKIE / PRIVACY NOTICE (kein Tracking, nur localStorage) ================= -->
-<div class="cookie-notice" id="cookieNotice">
-  <div class="cookie-notice-inner">
-    <p>Diese Seite verwendet nur technisch notwendige Speicherung (Warenkorb). <a href="datenschutz.html">Datenschutz</a></p>
-    <button type="button" class="btn btn-outline cookie-notice-ok" id="cookieNoticeOk">Verstanden</button>
+<!-- ================= PRODUKT-DETAIL ================= -->
+<div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalName" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel">
+    <button type="button" class="modal-close" data-close aria-label="Schließen">&times;</button>
+    <div class="modal-media"><img id="modalImg" src="" alt="" width="1200" height="1500"></div>
+    <div class="modal-info">
+      <p class="eyebrow">Vorschau</p>
+      <h2 id="modalName"></h2>
+      <p class="modal-price" id="modalPrice"></p>
+      <p class="modal-desc" id="modalDesc"></p>
+      <ul class="modal-details" id="modalDetails"></ul>
+      <p class="modal-link"><a href="#material-guide" data-close>Materialübersicht ansehen →</a></p>
+      <div class="qty-row">
+        <label for="modalQty">Menge</label>
+        <input type="number" id="modalQty" min="1" max="20" value="1" inputmode="numeric">
+      </div>
+      <button type="button" class="btn btn-primary modal-add" id="modalAddBtn">In den Warenkorb</button>
+      <p class="fineprint">Konzept-Rendering und vorläufige Angaben — finale Details folgen mit dem fertigen Katalog.</p>
+    </div>
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<!-- ================= WARENKORB ================= -->
+<div class="drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <h3 id="cartTitle">Dein Warenkorb</h3>
+      <button type="button" class="modal-close" data-close aria-label="Warenkorb schließen">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="drawer-foot">
+      <div class="cart-total-row"><span>Zwischensumme</span><span id="cartTotal">0,00 €</span></div>
+      <p class="fineprint">Versand wird im Checkout berechnet. Kleinunternehmerin gemäß § 19 UStG — keine Umsatzsteuer ausgewiesen.</p>
+      <button type="button" class="btn btn-primary cart-checkout" id="cartCheckoutBtn">Zur Kasse</button>
+      <p class="fineprint" id="checkoutNote" role="status"></p>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- Datenschutz-Hinweis: kein Tracking, nur localStorage für Warenkorb und diesen Hinweis -->
+<div class="cookie-notice" id="cookieNotice">
+  <p>Diese Seite nutzt nur technisch notwendige Speicherung im Browser (Warenkorb). Keine Cookies, kein Tracking. <a href="datenschutz.html">Datenschutz</a></p>
+  <button type="button" class="btn btn-outline btn-small" id="cookieNoticeOk">Verstanden</button>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
+<script src="vendor/lenis.min.js" defer></script>
 <script src="main.js" defer></script>
-<script>
-(function(){
-  var KEY = 'nms_cookie_notice_dismissed';
-  var notice = document.getElementById('cookieNotice');
-  var okBtn = document.getElementById('cookieNoticeOk');
-  if(!notice || !okBtn) return;
-  if(!localStorage.getItem(KEY)){
-    setTimeout(function(){ notice.classList.add('visible'); }, 600);
-  }
-  okBtn.addEventListener('click', function(){
-    localStorage.setItem(KEY, '1');
-    notice.classList.remove('visible');
-  });
-})();
-</script>
+<script type="module" src="scene.js"></script>
 </body>
 </html>

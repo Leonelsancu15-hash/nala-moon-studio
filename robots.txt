@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /confirmed.html
+
+Sitemap: https://nalamoon-studio.com/sitemap.xml

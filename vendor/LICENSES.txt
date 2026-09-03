@@ -1,0 +1,4 @@
+gsap.min.js / ScrollTrigger.min.js 3.12.5 — GreenSock standard license (free for this use): https://gsap.com/standard-license
+lenis.min.js 1.1.18 — MIT, (c) darkroom.engineering
+three.module.min.js r170 — MIT, (c) Three.js Authors
+All libraries are self-hosted; the site loads nothing from third-party CDNs.
